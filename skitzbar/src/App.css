@@ -1,0 +1,31 @@
+/* src/App.css */
+.progress-bar-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.progress-bar-large {
+  width: 80%;
+  height: 50px;
+  background-color: #e0e0e0;
+  border-radius: 25px;
+  overflow: hidden;
+  margin: 20px auto;
+  position: relative;
+}
+
+.progress-fill-large {
+  height: 100%;
+  background-color: #007bff;
+  transition: width 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px 0 0 25px;
+}
+
+#progress-text {
+  color: #ffffff;
+  font-weight: bold;
+}
+
